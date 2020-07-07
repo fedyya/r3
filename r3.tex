@@ -1,0 +1,47 @@
+\documentclass[a4paper, 12pt, titlepage]{ltjsarticle}
+
+% LuaLaTeX
+\usepackage[haranoaji, deluxe, bold]{luatexja-preset}
+\usepackage{luatexja-otf}
+\usepackage{tipa, tipx}
+\usepackage{multicol}
+
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\Alph{subsubsection}}
+
+\newcommand*{\ipa}[2]{{\textbf{#1}}{\textipa{[#2]}}}
+
+% hyperref
+\usepackage[%
+    unicode=true,%
+    bookmarks=true,%
+    bookmarksnumbered=true,%
+    colorlinks=true,%
+    linkcolor=blue,%
+    pdftitle={raipara-rei ryky},%
+    pdfauthor={赤城　茜}%
+]{hyperref}
+
+\title{raipara-rei ryky(RrR) \\ \small da 1 ``para-rei wie(PrW)''}
+\author{赤城　茜}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\clearpage
+
+\part{はじめに}
+
+\input{pages/preamble}
+\clearpage
+
+\part{言語システム}
+
+\input{pages/phonology}
+\input{pages/morphology}
+\clearpage
+
+\end{document}
