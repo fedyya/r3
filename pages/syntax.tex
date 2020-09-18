@@ -1,9 +1,48 @@
 \section{統語論}
 
+\subsection{supの項の解決}
+
+\subsubsection{sup の役割・基礎的な読み解き方}
+
+Supplier、略して sup は言語 r3\footnote{知っての通りの raipara-re ry の略。} において動詞または名詞と続く語の関係性を示す重要な概念である。いわゆる格（例：～が・～を・～に、など）など各種の文法事項の大半がこの sup で解決される。sup は基本的に修飾する名詞・動詞に続く語を sup の並びに応じて\textbf{左から順に}項に取っていく。
+
+sup は常に一つだけ語、名詞句、動詞句などを項に取る。逆説的に複数の語（の塊）が一つの sup で解決されることはない。言い換えるなら上述の通り左から順に項（語）を取る時、一つだけ取ることはあっても二つ連続して取ることはない。
+
+以下に単純な例を挙げる：
+
+\begin{itemize}
+    \item zeai\footnote{zeai \emph{v.} 愛する}-sy ry. 「私は愛する」\\ sup \emph{-sy}（～は） が ry（名詞：私） を項に取っている。
+    \item zeai-sy-se ry re. 「私は貴方を愛する」\\ sup \emph{-sy} が ry、sup \emph{-se}（～を）が re（名詞：貴方）を項に取っている。
+\end{itemize}
+
+\subsubsection{入れ子になった sup の解決}
+
+例えば「zeai-sy-se ry re-re perie.」という文章を考える。意味は「私は可愛い貴方を愛する」である。ここで注目するべきは、sup \emph{-re} が項に取っている \emph{re} が sup \emph{-re} を持っていることである。
+
+このような場合も常に左から項を解決する。即ち以下のように解決を進める：
+
+\begin{enumerate}
+    \item sup \emph{-sy} が最初の項 ry を取る。\\ →「私(ry)は(-sy)愛する(zeai)」
+    \item sup \emph{-se} が次の項 re を取る。 \\ →「貴方(re)を(-se)」
+    \item re-re の sup \emph{-re} が次の項 perie を取る。 \\ →「可愛い(perie)の(-re)貴方(re)」＝「可愛い貴方」\\ ここで re-re perie は一塊の名詞句として扱われる。
+    \item それぞれの項をまとめて sup の解決を終了する。
+\end{enumerate}
+
+\subsection{mod の解決}
+
+sup と違い Modifier、略して mod は一切の項を持たないので、sup より解決は極めて簡単である。mod は常に対象の動詞・名詞の前につく。対象が直ちに定まるため、mod の意味を直接対象に与えるだけで良い。以下は例である。
+
+\begin{itemize}
+    \item ri-honorai\footnote{honorai \emph{v.} 歌う}.「歌いましょう」\\ mod \emph{ri-} は相対的に弱い呼びかけ・誘いの意味合いを持つ。
+    \item ho-derai\footnote{derai \emph{v.} 死ぬ}-sy ria\footnote{ria \emph{n.} 人（もっぱら単数扱い）}. 「人は死ぬ」\\ mod \emph{ho-} は将来起こることを示す。
+\end{itemize}
+
+\clearpage
+
 \subsection{文全体の語順}
 
-基本的な語順は VSO である。ただし Modifier \emph{-sy} の場所によっては VOS になりうる。
-主語がない（\emph{-sy} により付加されない）場合単純に VO のみとなる。
+基本的な語順は \textbf{VSO} である。ただし mod \emph{-sy} の場所によっては VOS になりうる。
+主語がない（= sup \emph{-sy} により付加されない）場合単純に VO のみとなる。
 
 \subsubsection{動詞のみ（V）}
 
@@ -35,6 +74,8 @@
     \item rea-noadoai-se meria. 「星を数えましょう」
     \item ny-kyvenai-se roea. 「迷いを知らない」
 \end{itemize}
+
+\clearpage
 
 \subsection{疑問文}
 
