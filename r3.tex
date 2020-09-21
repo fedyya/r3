@@ -38,16 +38,16 @@
 %%
 \usepackage{titlesec}
 
-%% NOTE: \sf より \sfseries のほうが良いはずだが、そうすると動かない。
-%%       おそらく titlesec が和文を扱えないせいか。地獄。
-\titleformat{\part}[display]{\HUGE\sf\gtfamily\bfseries}{\sf\bfseries 第 \thepart 部}{5px}{}
-\titleformat{\section}{\huge\sf\gtfamily\bfseries}{\sf\bfseries\thesection}{1em}{}
-\titleformat{\subsection}{\LARGE\sf\gtfamily\bfseries}{\sf\bfseries\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\large\sf\gtfamily\bfseries}{\sf\bfseries\thesubsubsection}{1em}{}
+\titleformat{\part}[display]{\HUGE\sffamily\gtfamily\bfseries}{\sffamily\bfseries 第 \thepart 部}{5px}{}
+\titleformat{\section}{\huge\sffamily\gtfamily\bfseries}{\sffamily\bfseries\thesection}{1em}{}
+\titleformat{\subsection}{\LARGE\sffamily\gtfamily\bfseries}{\sffamily\bfseries\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\large\sffamily\gtfamily\bfseries}{\sffamily\bfseries\thesubsubsection}{1em}{}
 
-%% \renewcommand{\thesection}{\arabic{section}}
-%% \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
-%% \renewcommand{\thesubsubsection}{\thesubsection.\Alph{subsubsection}}
+%%
+%% cleveref
+%%
+\usepackage{cleveref}
+\crefname{table}{表}{表}
 
 %%
 %% macros
