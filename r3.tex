@@ -7,7 +7,7 @@
 %%
 
 %% ltjsarticle
-\documentclass[a4paper, 12pt, titlepage]{ltjsarticle}
+\documentclass[a4paper, 12pt, titlepage]{ltjsreport}
 
 %%
 %% LuaLaTeX
@@ -50,6 +50,15 @@
 \crefname{table}{表}{表}
 
 %%
+%% fancyhdr
+%%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+    \lhead{raipara-re ry}
+    \rhead{\thepage}
+    \cfoot{}
+
+%%
 %% macros
 %%
 \newcommand*{\ipa}[2]{
@@ -67,27 +76,30 @@
 
 \maketitle
 
-\tableofcontents \clearpage
+\setcounter{tocdepth}{2}
+\tableofcontents
 
-\part{はじめに} \clearpage
+\part{はじめに}
 
 % Preamble
-\input{pages/preamble} \clearpage
+\input{pages/preamble}
 
-\part{言語システム} \clearpage
+\part{言語システム}
 
 % Phonology
-\input{pages/phonology} \clearpage
+\input{pages/phonology}
 
 % Morphology
-\input{pages/morphology} \clearpage
+\input{pages/morphology}
 
 % Syntax
-\input{pages/syntax-common} \clearpage
-\input{pages/syntax-mod-sup.tex} \clearpage
+\input{pages/syntax-common}
+\input{pages/syntax-mod-sup.tex}
+
+\part{附録}
 
 % Appendix
-\input{pages/appendix-a} \clearpage
-\input{pages/appendix-b} \clearpage
+\input{pages/appendix-a}
+\input{pages/appendix-b}
 
 \end{document}
