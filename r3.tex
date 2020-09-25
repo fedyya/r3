@@ -69,6 +69,7 @@
 \usepackage{wrapfig}    % for wrapping the table
 \usepackage{here}       % for explicit place H
 \usepackage{changepage} % for env:adjustwidth
+\usepackage{ascmac}     % for itembox
 
 %%
 %% macros
@@ -98,6 +99,9 @@
 }}
 \makeatother
 
+%%
+%% indent macro
+%%
 \newenvironment{pindent}{\begin{adjustwidth}{1cm}{}}{\end{adjustwidth}}
 
 %%
@@ -110,7 +114,6 @@
 
 \maketitle
 
-\setcounter{tocdepth}{2}
 \tableofcontents
 
 \part{はじめに}
