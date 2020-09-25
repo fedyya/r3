@@ -6,15 +6,15 @@
 %% @license CC BY-SA 4.0 International
 %%
 
-%% ltjsarticle
+%%
+%% ltjsreport
+%%
 \documentclass[a4paper, 12pt, titlepage]{ltjsreport}
 
 %%
 %% LuaLaTeX
 %%
 \usepackage[deluxe, bold, haranoaji]{luatexja-preset}
-\usepackage{tipa, tipx}
-\usepackage{multicol}
 
 %%
 %% hyperref
@@ -58,7 +58,14 @@
     \rhead{\thepage}
     \cfoot{}
 
-\usepackage{marginnote}
+%%
+%% misc
+%%
+\usepackage{tipa, tipx}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{here}
 
 %%
 %% macros
@@ -71,6 +78,9 @@
     {#1\hspace{\fill}}{#2}
 }
 
+%%
+%% BEGIN WRITING
+%%
 \title{raipara-re ry(r3)}
 \author{赤城　茜}
 
