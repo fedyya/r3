@@ -1,4 +1,4 @@
-number,jp,en,ra
+id,japanese,english,raipara
 1,私,I,ry
 2,君 / 貴方,you,re
 3,彼,he,re（性なし）
@@ -12,7 +12,7 @@ number,jp,en,ra
 11,誰,who,zaria
 12,何,what,zarea
 13,何処,where,zarara
-14,何時,when,zaravea
+14,何時,when,zavea
 15,如何,how,zarezea
 16,否,not,（mod で表現する）
 17,全て,all,naira

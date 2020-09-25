@@ -25,5 +25,7 @@
     \endlastfoot
 
     % table from csv
-    \csvreader{data/Swadesh.csv}{number=\Tn, jp=\Tj, en=\Te, ra=\Tr}{\Tn & \Tj & \Te & \Tr \\}
+    \csvreader{data/Swadesh.csv}%
+    {id=\id, japanese=\japanese, english=\english, raipara=\raipara}%
+    {\id & \japanese & \english & \raipara \\}
 \end{longtable}
