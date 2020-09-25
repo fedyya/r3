@@ -61,12 +61,14 @@
 %%
 %% misc
 %%
-\usepackage{tipa, tipx}
-\usepackage{multicol}
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{csvsimple}
-\usepackage{here}
+\usepackage{tipa, tipx} % for IPA
+\usepackage{multicol}   % for multi columns
+\usepackage{booktabs}   % for better table
+\usepackage{longtable}  % for long table
+\usepackage{csvsimple}  % for loading some csv
+\usepackage{wrapfig}    % for wrapping the table
+\usepackage{here}       % for explicit place H
+\usepackage{changepage} % for env:adjustwidth
 
 %%
 %% macros
@@ -79,10 +81,29 @@
     {#1\hspace{\fill}}{#2}
 }
 
+\newcommand*{\subattr}[1]{
+    {\textsubscript{\textsc{#1}}}
+}
+
+\newcommand*{\supattr}[1]{
+    {\textsuperscript{\textsc{#1}}}
+}
+
+\makeatletter
+\DeclareRobustCommand{\supsub}[2]{{%
+  \m@th\ensuremath{%
+    ^{\mbox{\fontsize\sf@size\z@\textsc{#1}}}%
+    _{\mbox{\fontsize\sf@size\z@\textsc{#2}}}%
+  }%
+}}
+\makeatother
+
+\newenvironment{pindent}{\begin{adjustwidth}{1cm}{}}{\end{adjustwidth}}
+
 %%
 %% BEGIN WRITING
 %%
-\title{raipara-re ry(r3)}
+\title{raipara-re ry}
 \author{赤城　茜}
 
 \begin{document}
