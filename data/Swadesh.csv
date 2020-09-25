@@ -1,0 +1,208 @@
+number,jp,en,ra
+1,私,I,ry
+2,君 / 貴方,you,re
+3,彼,he,re（性なし）
+4,私達,we,ryky
+5,君等,you,reky
+6,彼等,they,reky（性なし）
+7,これ,this,ina
+8,それ,that,ida
+9,ここ,here,oina
+10,そこ,there,oida
+11,誰,who,zaria
+12,何,what,zarea
+13,何処,where,zarara
+14,何時,when,zaravea
+15,如何,how,zarezea
+16,否,not,（mod で表現する）
+17,全て,all,naira
+18,多く,many,raine
+19,少し,some,feine
+20,少ない,few,feine
+21,他,other,aie
+22,一,one,noa
+23,二,two,doa
+24,三,three,toa
+25,四,four,koa
+26,五,five,nokoa
+27,大きい,big,raie
+28,長い,long,somire
+29,広い,wide,faare
+30,厚い,thick,vaire
+31,重い,heavy,venge
+32,小さい,small,pie
+33,短い,short,pire
+34,狭い,narrow,gyire
+35,細い,thin,syire
+36,女,woman,eira
+37,男,man,aira
+38,人,human,ria
+39,子,child,pira
+40,妻,wife,reira
+41,夫,husband,raira
+42,母,mother,anira
+43,父,father,enira
+44,生き物,animal,nirea
+45,魚,fish,aniraia
+46,鳥,bird,niha
+47,犬,dog,nivava
+48,虱,louse,nikaha
+49,蛇,snake,nisomia
+50,虫,worm,nivyta
+51,木,tree,hyrizia
+52,森,forest,hyraia
+53,枝,stick,hypia
+54,実 / 果物,fruit,hythana
+55,種,seed,hynisa
+56,葉,leaf,hynha
+57,根,root,hyteeda
+58,木皮,bark,hyganda
+59,花,flower,hyraasia
+60,草,grass,hyrea
+61,縄,rope,viyna
+62,皮,skin,mina
+63,肉,meat,kamia
+64,血,blood,vyrenda
+65,骨,bone,kagia
+66,脂,fat,miva
+67,卵,egg,konirea
+68,角,horn,keeda
+69,尻尾,tail,nessa
+70,羽,feather,faana
+71,髪,hair,kahana
+72,頭,head,kooza
+73,耳,ear,kana
+74,目,eye,kyra
+75,鼻,nose,kasa
+76,口,mouth,kaza
+77,歯,tooth,katia
+78,舌,tongue,kazapia
+79,爪,fingernail,kazara
+80,足,foot,kea
+81,脚,leg,karia
+82,膝,knee,kafea
+83,手,hand,kada
+84,翼,wing,foressa
+85,腹,belly,karoma
+86,腸,guts,kamina
+87,首,neck,kassa
+88,背,back,kanoa
+89,胸,breast,kena
+90,心,heart,kaira
+91,肝,liver,kensa
+92,飲む,to drink,monora-
+93,食べる,to eat,enoga-
+94,噛む,to bite,katia-
+95,吸う,to suck,pysa-
+96,吐く,to spit,emira-
+97,吐く,to vomit,emira-
+98,吹く,to blow,fassa-
+99,息する,to breathe,rene-
+100,笑う,to laugh,pakora-
+101,見る,to see,mira-
+102,聞く,to hear,feno-
+103,知る,to know,rhe-
+104,思う,to think,kara-
+105,嗅ぐ,to smell,kesa-
+106,恐れる,to fear,ganda-
+107,寝る,to sleep,mona-
+108,生きる,to live,nire-
+109,死ぬ,to die,dera-
+110,殺す,to kill,rha-
+111,戦う,to fight,gezea-
+112,狩る,to hunt,gema-
+113,打つ,to hit,tate-
+114,切る,to cut,sha-
+115,割る,to split,kinda-
+116,刺す,to stab,vissa-
+117,掻く,to scratch,saro-
+118,掘る,to dig,zhodo-
+119,泳ぐ,to swim,zhava-
+120,飛ぶ,to fly,kaaha-
+121,歩く,to walk,koro-
+122,来る,to come,seo-
+123,寝る / 横たわる,to lie (as in a bed),reko-
+124,座る,to sit,soma-
+125,立つ,to stand,taka-
+126,回る,to turn (自動詞),vora-
+127,落ちる,to fall,vavo-
+128,与える / 上げる,to give,assa-
+129,持つ,to hold,handa-
+130,絞る,to squeeze,vano-
+131,擦る,to rub,sessa-
+132,洗う,to wash,zenra-
+133,拭く,to wipe,susa-
+134,引く,to pull,gha-
+135,押す,to push,zyira-
+136,投げる,to throw,syra-
+137,結ぶ,to tie,rena-
+138,縫う,to sew,nina-
+139,数える,to count,noadoa-
+140,言う,to say,ro-
+141,歌う,to sing,honora-
+142,遊ぶ,to play,rere-
+143,浮く,to float,hyna-
+144,流れる,to flow,raasa-
+145,凍る,to freeze,akado-
+146,膨らむ,to swell,raifa-
+147,太陽,sun,sena
+148,月,moon,reia
+149,星,star,meria
+150,水,water,pisa
+151,雨,rain,ashara
+152,川,river,ahyra
+153,湖,lake,anea
+154,海,sea,araipisa
+155,塩,salt,asyma
+156,石,stone,izyma
+157,砂,sand,zena
+158,塵,dust,pizena
+159,土,earth,raizena
+160,雲,cloud,serea
+161,霧,fog,feserea
+162,空,sky,eria
+163,風,wind,fyra
+164,雪,snow,aoria
+165,氷,ice,akadoa
+166,煙,smoke,osyma
+167,火,fire,vazyma
+168,灰,ash,shyma
+169,燃える,to burn,vazyma-
+170,道,road,taria
+171,山,mountain,henezyva
+172,赤,red,mika
+173,緑,green,vika
+174,黄色,yellow,nerika
+175,白,white,orika
+176,黒,black,reika
+177,夜,night,reda
+178,日,day,da
+179,年,year,raida
+180,暖かい,warm,haare
+181,寒い,cold,doore
+182,満ちた,full,pyre
+183,新しい,new,ve
+184,古い,old,zie
+185,良い,good,saare
+186,悪い,bad,zaine
+187,腐った,rotten,fasse
+188,汚い,dirty,vaade
+189,真っ直ぐ,straight,saire
+190,丸い,round,roire
+191,鋭い,sharp (as a knife),sekede
+192,鈍い,dull (as a knife),ozyme
+193,滑らか,smooth,messe
+194,濡れた,wet,amane
+195,乾いた,dry,pase
+196,正しい,correct,ire
+197,近い,near,seine
+198,遠い,far,neire
+199,右,right,rekoda
+200,左,left,hekoda
+201,,at,（sup で表現）
+202,,in,（sup で表現）
+203,,with,（sup で表現）
+204,,and,（sup で表現）
+205,,if,（sup で表現）
+206,,because,（sup で表現）
+207,名前,name,danoa

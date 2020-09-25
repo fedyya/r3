@@ -1,0 +1,29 @@
+\chapter{附録C}
+
+\section{スワデシュ・リスト}
+
+\begin{longtable}[c]{clll}
+    \caption{raipara-re ry 版スワデシュ・リスト}
+    \label{table:swadesh-list}
+    \\
+
+    % table definition
+    \toprule
+    番号 & 日本語 & 英語 & raipara-re ry \\
+    \midrule
+    \endfirsthead
+
+    \toprule
+    番号 & 日本語 & 英語 & raipara-re ry \\
+    \midrule
+    \endhead
+
+    \bottomrule
+    \endfoot
+
+    \bottomrule
+    \endlastfoot
+
+    % table from csv
+    \csvreader{data/Swadesh.csv}{number=\Tn, jp=\Tj, en=\Te, ra=\Tr}{\Tn & \Tj & \Te & \Tr \\}
+\end{longtable}
