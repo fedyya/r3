@@ -1,32 +1,42 @@
 \chapter{文法の補足}
 
+\section{主たる語の省略}
+
+原則として文を成り立たせるときは名詞ないし動詞で始めなければならない。
+しかし、例えば「花を！」のように供与詞で始めなければならない文や供与詞のうち接続詞的役割を果たすものはその例外となる。
+
+供与詞から文を始めるとき、その供与詞に母音が存在しないときは \emph{a-} を付加する。それ以外はそのまま表記する。
+例えば「花を！」（供与詞から始まる文）は \emph{As ferissa!} となり、「しかし、我々は立ち上がった」（接続詞から始まる文は）\emph{Ned ekveirik nis.} となる。
+
 \section{状態詞・供与詞の語順}
 
 状態詞・供与詞はどのように並び替えても良い。しかし、推奨される順序は以下の通りである。数字が若いほど優先度が高い。
 
-\begin{multicols}{2}
-    \subsection{状態詞の語順}
+\subsection{状態詞の語順}
 
+\begin{multicols}{2}
     \begin{enumerate}
         \item 接続 \emph{sed}・\emph{ned}・\emph{ad}
         \item 疑問文宣言 \emph{aus}
         \item 数 \emph{nos}・\emph{dos}・\emph{nas}
         \item 性 \emph{ar}・\emph{er}・\emph{nir}
+        \columnbreak
         \item 態・相 \emph{rit}・\emph{sit}・\emph{niz}
         \item 法 \emph{fis}・\emph{sis}・\emph{zis}
         \item 時制 \emph{ak}・\emph{ek}
         \item 否定 \emph{es}・\emph{ves}
     \end{enumerate}
+\end{multicols}
 
-    \columnbreak
+\subsection{供与詞の語順}
 
-    \subsection{供与詞の語順}
-
+\begin{multicols}{2}
     \begin{enumerate}
         \item 主格 \emph{k}
         \item 対格 \emph{s}
         \item 奪格 \emph{ruz}
         \item 与格 \emph{zek}
+        \columnbreak
         \item 随伴 \emph{vei}・\emph{nei}
         \item ここに示されない供与詞
         \item 疑問詞の項
@@ -36,12 +46,12 @@
 
 \section{約物の表記}
 
-\cref{table:list-of-punctuation}が r3 の記述上の役物として用いられる。
+\cref{table:list-of-punctuation}がパラニーク・エルカの記述上の役物として用いられる。
 
 \deftablemargin
 \begin{table}[H]
     \centering
-    \caption{raipara-re ry の約物一覧}
+    \caption{パラニーク・エルカの約物の一覧}
     \label{table:list-of-punctuation}
     \begin{tabular}{ccl}
         \toprule
@@ -57,18 +67,24 @@
     \end{tabular}
 \end{table}
 
-\section{外来語の表記・読み}
+\section{借用語の表現}
 
-外来語（例：英語・日本語）の語を表記するときは原則として外来語のアルファベット転記をそのまま表記する。
-言語にない文字（CやLなど）もそのまま写す。
+パラニーク・エルカは原則として借用語に対して音韻論・形態論からの逸脱を認めない。
+よって外国語からパラニーク・エルカに語を借用するとき、以下のような方法が考えられる。
 
-読みは言語の発音規則にそってできるだけ似せて表現する。テキスト上で記述するときは原表記と共に読みも記述するのが望ましい。
+\begin{itemize}
+    \item 音韻論に沿って綴りを書き換える。\\
+        例：「L」はパラニークエルカに存在しないので「R」に置き換えるなど。
+    \item 形態論的な一致を行う。 \\
+        例：名詞を借用するときは語尾を何らかの形で \emph{-a} にするなど。
+    \item 翻訳借用（カルク）は\cref{section:generating-compound}に準拠して行う。
+\end{itemize}
 
 \section{日本語への転記}
 
 発音規則は概ね日本語と共通しているので、発音する通りに日本語（仮名など）に転記すればよい。
 
-\begin{itembox}[l]{r3 → 日本語への転記例}
+\begin{itembox}[l]{パラニーク・エルカから日本語への転記例}
     \begin{pindent}
         \noindent
         Aikas \emph{Paranik Erka} nirkaz foska. \\
@@ -77,4 +93,5 @@
     \end{pindent}
 \end{itembox}
 
-\section{複合語の形成}
+\section{複合語・造語の形成}
+\label{section:generating-compound}
